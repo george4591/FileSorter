@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =======================================================================================
-# 					TEAM: Stefan George, Sandu Calin, Zagorschi Andrei					#
+# 			TEAM: Stefan George, Sandu Calin, Zagorschi Andrei		#
 # =======================================================================================
 #
 # 	This is a script which organizes every file from a folder in 
@@ -9,15 +9,15 @@
 #
 #
 #	EXAMPLE: We have the following folder:				After script execution:
-#			Folder										Folder
-#			|----image1.png								|----Images
-#			|											|	 L----image1.png
-#			|----video1.mp4								|----Videos
-#			|											|	 L----video1.mp4
-#			|----code.cpp								|----bin
-#			|											|	 L----code.cpp
-#			L----audio.mp3								L----Music
-#															 L----audio.mp3
+#			Folder						Folder
+#			|----image1.png					|----Images
+#			|						|	L----image1.png
+#			|----video1.mp4					|----Videos
+#			|						|	L----video1.mp4
+#			|----code.cpp					|----bin
+#			|						|	L----code.cpp
+#			L----audio.mp3					L----Music
+#										L----audio.mp3
 #			
 #		
 #
@@ -97,7 +97,7 @@ DEFAULT_FOLDER="./"
 verbose=0
 
 
-# =====================================MAIN==============================================
+# ===================================== MAIN ==============================================
 
 printf "\nChoose an option:\n"
 	printf '%-10s %-50s \n' \
