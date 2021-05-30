@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# ======================================================================================
-# 					TEAM: Stefan George, Sandu Calin, Zagorschi Andrei                 #
-# ======================================================================================
+# =======================================================================================
+# 					TEAM: Stefan George, Sandu Calin, Zagorschi Andrei					#
+# =======================================================================================
 #
 # 	This is a script which organizes every file from a folder in 
 #	subfolders depending on their extension 
@@ -25,7 +25,7 @@
 #   in the folder that the user entered. It gets a file and creates a folder based on 
 #   the file's extension (if the folder does not exist already) and it moves the file in 
 #   that subfolder. 
-# ======================================================================================
+# =======================================================================================
 
 
 # Function which changes the folder which is to be sorted
