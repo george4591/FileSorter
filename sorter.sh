@@ -100,13 +100,13 @@ verbose=0
 # ===================================== MAIN ==============================================
 
 printf "\nChoose an option:\n"
-	printf '%-10s %-50s \n' \
+printf '%-10s %-50s \n' \
     	   '1. sort:'   'Sorts the folder(Default folder is the folder the script is in)' \
-		   '2. folder(chf):'	'Changes the default folder the scripts sorts' \
-		   '3. verbose:' 'Enables the printing of file metadata for each file read' \
-		   '4. quit:' 'Exit the script'
-
-	printf '>'; read option
+	   '2. folder(chf):'	'Changes the default folder the scripts sorts' \
+	   '3. verbose:' 'Enables the printing of file metadata for each file read' \
+	   '4. quit:' 'Exit the script'
+	   
+printf '>'; read option
 
 # Infinite loop until the user exits the script
 while true; do
