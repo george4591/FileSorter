@@ -44,8 +44,8 @@ function change_folder() {
 function move_file() {
 	if [ ! -d "$1/" ]; then
 		mkdir "$1"
-    fi
-    mv "$2" "$1/"
+	fi
+	mv "$2" "$1/"
 }
 
 function sort_files() {
